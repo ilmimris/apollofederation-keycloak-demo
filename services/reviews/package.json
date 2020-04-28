@@ -1,0 +1,9 @@
+{
+	"name": "reviews",
+	"dependencies": {
+		"@apollo/federation": "latest",
+		"apollo-server": "latest",
+		"graphql": "latest",
+		"keycloak-connect-graphql": "latest"
+	}
+}
