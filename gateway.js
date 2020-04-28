@@ -85,7 +85,6 @@ const gateway = new ApolloGateway({
     })(req, res, next);
   });
 
-  // console.log(server);
   server.applyMiddleware({ app })
   
   // server.listen().then(({ url }) => {
