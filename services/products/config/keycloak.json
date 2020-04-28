@@ -1,0 +1,13 @@
+{
+  "realm": "explore",
+  "auth-server-url": "http://localhost:8080/auth",
+  "ssl-required": "none",
+  "resource": "gateway",
+  "verify-token-audience": true,
+  "credentials": {
+    "secret": "b52541ed-4a42-4aa0-ae15-d99839c3e095"
+  },
+  "use-resource-role-mappings": true,
+  "confidential-port": 0,
+  "policy-enforcer": {}
+}
