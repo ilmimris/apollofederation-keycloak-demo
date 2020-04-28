@@ -8,12 +8,15 @@
     "start-service-products": "nodemon services/products/index.js",
     "start-service-inventory": "nodemon services/inventory/index.js",
     "start-services": "concurrently \"npm:start-service-*\"",
-    "postinstall": "lerna bootstrap"
+    "postinstall": "lerna bootstrap",
+    "keycloak:seed": "node scripts/initKeycloak.js"
   },
   "devDependencies": {
     "lerna": "latest",
     "nodemon": "latest",
-    "concurrently": "latest"
+    "concurrently": "latest",
+    "keycloak-request-token": "0.1.0",
+    "keycloak-admin": "1.13.0"
   },
   "dependencies": {
     "@apollo/gateway": "latest",
