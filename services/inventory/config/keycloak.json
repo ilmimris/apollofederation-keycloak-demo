@@ -1,11 +1,11 @@
 {
-  "realm": "explore",
+  "realm": "keycloak-connect-graphql",
   "auth-server-url": "http://localhost:8080/auth",
-  "ssl-required": "none",
-  "resource": "gateway",
+  "ssl-required": "external",
+  "resource": "apollofederation",
   "verify-token-audience": true,
   "credentials": {
-    "secret": "b52541ed-4a42-4aa0-ae15-d99839c3e095"
+    "secret": "64772595-42a3-43ca-9c16-755ef803ba42"
   },
   "use-resource-role-mappings": true,
   "confidential-port": 0,
