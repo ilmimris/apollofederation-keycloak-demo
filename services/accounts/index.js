@@ -11,7 +11,7 @@ const typeDefs = gql`
   ${KeycloakTypeDefs}
   extend type Query {
     me: User @auth
-    hello: String @hasRole(role: "user")
+    hello: String @hasRole(role: "developer")
   }
 
   type User @key(fields: "id") {
